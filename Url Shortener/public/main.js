@@ -18,7 +18,7 @@ const shortenUrl = async () => {
     })
     if(response.ok){
       const jsonResponse = await response.json()
-      renderResponse(jsonResponse)
+      renderResponse(jsonResponse) 
     }
   }
   catch(error){
